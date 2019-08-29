@@ -1,0 +1,20 @@
+ <!-- <h1>Hello</h1> -->
+<!-- <p>{{myUser1.login}}</p> -->
+<div>
+<p>User name : {{myUser1.login}}</p>
+<p>Profile picture : {{myUser1.avatar_url}}</p>
+<p>Created At : {{myUser1.created_at}}</p>
+<p>Total Repositories : {{myUser1.public_repos}}</p>
+</div>
+<hr>
+<div>
+    <p *ngFor= 'let xyz of myrepos'>
+        Project name : {{xyz.full_namelo}} 
+        <br>
+        Project description : {{xyz.description}} 
+        <br>
+        Created At : {{xyz.created_at}}
+        <br>
+    </p>
+</div>
+<a href="" (click)="goToForm()">Back to form</a>
