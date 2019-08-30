@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { User } from './user';
-import { Repository } from './repository';
+
 import {myOwnRepo} from '../../all-info'
 
 @Injectable({

@@ -1,0 +1,26 @@
+#myConatiner {
+    background-image:url(http://opacove.com/wp-content/uploads/2018/04/pexels-photo-461077-1024x682.jpeg);
+    background-size: contain;
+    /* color: aliceblue; */
+   
+}
+.move {
+    position:relative;
+    right: -96px;
+    font-size: 20px;
+    /* float: right; */
+}
+img {
+    border-radius:60%;
+}
+#move1 {
+    border:1px solid white;
+    background-image: url("https://images.pexels.com/photos/34090/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+#myUsername {
+    text-align: center;
+    position: relative;
+    right: -316px;
+    bottom: -180px;
+}
