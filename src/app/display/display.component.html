@@ -1,7 +1,6 @@
  <!-- <h1>Hello</h1> -->
 <!-- <p>{{myUser1.login}}</p> -->
-<div  id="myConatiner">
-    <div></div>
+<div   id="myConatiner">
 <div class="move" id="move1">
 <p id="myUsername">User name : {{myUser1.login}}</p>
 <img src="{{myUser1.avatar_url}}"  width="150" height="150"> 
@@ -10,7 +9,7 @@
 </div>
 
 <div class="move">
-    <p *ngFor= 'let xyz of myrepos'>
+    <p *ngFor= 'let xyz of myrepos' id="para2">
         Project name : {{xyz.full_namelo}} 
         <br>
         Project description : {{xyz.description}} 
