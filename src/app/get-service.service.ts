@@ -19,7 +19,7 @@ export class GetServiceService {
    userRequest(id){
     interface ApiResponse{
       login: string;
-      avatar_url:string;
+      avatar_url:any;
       created_at:string;
       public_repos:number
     }
