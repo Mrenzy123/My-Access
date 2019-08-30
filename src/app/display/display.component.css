@@ -9,12 +9,15 @@
 }
 .move {
     position:relative;
-    right: -96px;
+    right: -296px;
     font-size: 20px;
     /* float: right; */
 }
 img {
     border-radius:60%;
+    position: relative;
+    left: 261px;
+    bottom: -50px;
 }
 #move1 {
     border:1px solid white;
@@ -24,6 +27,12 @@ img {
 #myUsername {
     text-align: center;
     position: relative;
-    right: -316px;
-    bottom: -180px;
+    right: 261px;
+    bottom: -110px;
 }
+#myUsername1 {
+    text-align: center;
+    position: relative;
+    right: 261px;
+    bottom: 50px;
+} 
