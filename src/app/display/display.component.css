@@ -30,6 +30,7 @@ img {
     position: relative;
     left: 99px;
     bottom: 90px;
+
     /* right: -291px; */
 }
 #move1 {
@@ -40,12 +41,15 @@ img {
     position: relative;
     right:-0px;
     color: gainsboro;
+    
+   
 }
 #myUsername {
     text-align: center;
     position: relative;
     right: 261px;
     bottom: -110px;
+    font-size: 35px;
 }
 /* #myUsername1 {
     text-align: center;
