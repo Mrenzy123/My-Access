@@ -1,12 +1,13 @@
  <!-- <h1>Hello</h1> -->
 <!-- <p>{{myUser1.login}}</p> -->
+<link href="https://fonts.googleapis.com/css?family=Iceland&display=swap" rel="stylesheet">
 <div   id="myConatiner">
 <div class="move" id="move1">
 <p id="myUsername">User name : {{myUser1.login}}</p>
 <p id="myUsername">Created At : {{myUser1.created_at}}</p>
 <p id="myUsername">Total Repositories : {{myUser1.public_repos}}</p>
 </div>
-<img src="{{myUser1.avatar_url}}"  width="190" height="190"> 
+<img src="{{myUser1.avatar_url}}"  width="210" height="210"> 
 
 <div class="move" id="move2">
     <p *ngFor= 'let xyz of myrepos' id="para2">

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  myApi :"e0a926bbe2038fad5fa42f065a61f61d4c100fc5",
+  myApi :"c75fda357a611c4da88e238ca1dca60282d8236d",
   // apiUrl:'https://api.github.com/users/Mrenzy?access_token='+"e485742a557b2c21f594b1baeebd80257fc65ec0"
 };
 
