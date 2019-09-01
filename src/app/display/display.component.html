@@ -3,12 +3,12 @@
 <div   id="myConatiner">
 <div class="move" id="move1">
 <p id="myUsername">User name : {{myUser1.login}}</p>
-<img src="{{myUser1.avatar_url}}"  width="150" height="150"> 
-<p id="myUsername1">Created At : {{myUser1.created_at}}</p>
-<p id="myUsername1">Total Repositories : {{myUser1.public_repos}}</p>
+<p id="myUsername">Created At : {{myUser1.created_at}}</p>
+<p id="myUsername">Total Repositories : {{myUser1.public_repos}}</p>
 </div>
+<img src="{{myUser1.avatar_url}}"  width="190" height="190"> 
 
-<div class="move">
+<div class="move" id="move2">
     <p *ngFor= 'let xyz of myrepos' id="para2">
         Project name : {{xyz.full_namelo}} 
         <br>

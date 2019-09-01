@@ -5,24 +5,37 @@
     border: 1px white solid;
     /* height: 100vh;   
     position: relative; */
-    
+    right: -6px;
 }
 .move {
     position:relative;
     right: -296px;
     font-size: 20px;
     /* float: right; */
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 4px cyan dotted;
+    
+}
+#move2 {
+    position: relative;
+    top: -95px;
+    height: 600px;
+    width: 1500px;
+    overflow-y: scroll;
 }
 img {
     border-radius:60%;
+    border: 5px white solid;
     position: relative;
-    left: 261px;
-    bottom: -50px;
+    left: 639px;
+    bottom: 90px;
+    /* right: -291px; */
 }
 #move1 {
     border:1px solid white;
-    /* background-image: url("https://images.pexels.com/photos/34090/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+    background-image: url("https://images.pexels.com/photos/34090/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size: cover;
+    height: 290px;
 }
 #myUsername {
     text-align: center;
@@ -30,9 +43,9 @@ img {
     right: 261px;
     bottom: -110px;
 }
-#myUsername1 {
+/* #myUsername1 {
     text-align: center;
     position: relative;
     right: 261px;
-    bottom: 50px;
-} 
+    bottom: -120px;
+}  */
