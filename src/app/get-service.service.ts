@@ -10,10 +10,12 @@ import {User} from './user';
 export class GetServiceService {
   myuser2:User
   myrepo2:Repository[]
+  myApi :"f8c19dd30b3173595c1297489eb31834614c678f"
 
   constructor(private http:HttpClient) {
     this.myuser2 = new User("","", "", 0);
     this.myrepo2 = [];
+    this.myApi ="f8c19dd30b3173595c1297489eb31834614c678f"
    }
 
    userRequest(id){
@@ -24,12 +26,11 @@ export class GetServiceService {
       public_repos:number
     }
     let promise = new Promise((resolve,reject)=>{
-      this.http.get<ApiResponse>('https://api.github.com/users/'+id+'?access_token='+ environment.myApi).toPromise().then(response=>{
+      this.http.get<ApiResponse>('https://api.github.com/users/'+id+'?access_token='+ this.myApi).toPromise().then(response=>{
         this.myuser2.login = response.login
         this.myuser2.avatar_url = response.avatar_url
         this.myuser2.created_at = response.created_at
         this.myuser2.public_repos += response.public_repos
-        // console.log(this.myuser2)
         resolve()
       },
       error=>{
@@ -50,7 +51,7 @@ export class GetServiceService {
       created_at:string;
     }
     let promise = new Promise((resolve,reject)=>{
-      this.http.get<ApiResponse>('https://api.github.com/users/'+id1+'/repos?access_token='+ environment.myApi).toPromise().then(response=>{
+      this.http.get<ApiResponse>('https://api.github.com/users/'+id1+'/repos?access_token='+ this.myApi).toPromise().then(response=>{
       for(var i in response){
         this.myrepo2.push(new Repository(response[i].full_name, response[i].description, response[i].created_at))
       } 
