@@ -1,4 +1,17 @@
-#myform{
-    background-image: url("https://miro.medium.com/max/12032/1*4yRHPXIXm4XGmiBSg8h29Q.jpeg");
-    height:100vh
+body{
+    background-image: url("http://www.photobackgroundhd.com/wp-content/uploads/2018/08/Full-HD-1080p-Wallpaper-HD-Nature.jpg");
+    height:100vh;
+    color: lightgreen;
+    font-size: 30px;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.61); */
+}
+#myform {
+    border: 1px solid black;
+    margin:auto;
+    width:50%;
+    position:relative;
+    bottom: -270px;
+    background-color: rgba(0, 0, 0, 0.521);
+    font-family: 'Iceland', cursive;
 }

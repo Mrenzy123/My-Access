@@ -1,6 +1,7 @@
 #myConatiner {
-    /* background-image:url(http://opacove.com/wp-content/uploads/2018/04/pexels-photo-461077-1024x682.jpeg); */
-    background-color: darkgray;
+    background-image:url(https://www.colourbox.com/preview/3054555-plant-on-the-stones-with-dew.jpg);
+    /* background-color: darkgray; */
+    background-size: cover;
     /* color: aliceblue; */
     border: 1px white solid;
     /* height: 100vh;   
@@ -35,12 +36,13 @@ img {
 }
 #move1 {
     border:1px solid white;
-    background-image: url("https://image.freepik.com/free-photo/team-work-process-young-business-managers-crew-working-with-new-startup-project-laptop-wood-table-typing-keyboard-texting-message-analyse-graph-plans_1423-113.jpg");
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmAurKSd_jOB5tpL1QNKtxGLUYSmqPN9dsJ5IYNrRBu9PXiVIF"); */
     background-size: cover;
     height: 290px;
     position: relative;
     right:-0px;
     color: gainsboro;
+    background-color: rgba(0, 0, 0, 0.603);
     
    
 }
